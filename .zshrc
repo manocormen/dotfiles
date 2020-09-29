@@ -45,3 +45,6 @@ export NVM_DIR="$HOME/.nvm"
 fpath=($fpath "/home/manoel/.zfunctions")
 autoload -U promptinit; promptinit
 prompt spaceship
+
+# Start vi mode via spaceship prompt
+spaceship_vi_mode_enable
