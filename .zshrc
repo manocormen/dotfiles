@@ -35,16 +35,9 @@ zstyle ':completion:*:kill:*' command 'ps -u $USER -o pid,%cpu,tty,cputime,cmd'
 
 # Put additional config in separate files to keep things organized
 source .zsh_aliases
+source .spaceshiprc
 
 # Start nvm
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-
-# Start spaceship prompt
-fpath=($fpath "/home/manoel/.zfunctions")
-autoload -U promptinit; promptinit
-prompt spaceship
-
-# Start vi mode via spaceship prompt
-spaceship_vi_mode_enable

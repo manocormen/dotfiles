@@ -1,0 +1,7 @@
+# Start spaceship prompt
+fpath=($fpath "/home/manoel/.zfunctions")
+autoload -U promptinit; promptinit
+prompt spaceship
+
+# Start vi mode
+spaceship_vi_mode_enable
