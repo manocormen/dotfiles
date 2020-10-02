@@ -7,9 +7,13 @@ set number relativenumber
 
 " Add plugins
 call plug#begin("~/.local/share/nvim/site/autoload/plugged")
+Plug 'itchyny/lightline.vim'
 Plug 'haishanh/night-owl.vim'
 call plug#end()
 
-" Enable theme
+" Enable nvim theme
 set termguicolors
 colorscheme night-owl
+
+" Enable lightline theme
+let g:lightline = { 'colorscheme': 'nightowl' }
