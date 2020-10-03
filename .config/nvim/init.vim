@@ -17,3 +17,7 @@ colorscheme night-owl
 
 " Enable lightline theme
 let g:lightline = { 'colorscheme': 'nightowl' }
+
+" Add ruler
+set colorcolumn=89
+highlight ColorColumn guibg=#012239
