@@ -1,3 +1,5 @@
 [user]
 	name = Manoel Cortes Mendez
 	email = manoelcortesmendez@gmail.com
+[core]
+	editor = nvim
