@@ -5,6 +5,7 @@ prompt spaceship
 
 # Start vi mode
 spaceship_vi_mode_enable
+bindkey kj vi-cmd-mode 
 
 SPACESHIP_PROMPT_ORDER=(
   time          # Time stamps section
