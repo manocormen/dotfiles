@@ -1,0 +1,99 @@
+[global_config]
+  suppress_multiple_term_dialog = True
+[keybindings]
+[profiles]
+  [[default]]
+    background_color = "#002b36"
+    cursor_color = "#aaaaaa"
+    foreground_color = "#839496"
+    show_titlebar = False
+    palette = "#073642:#dc322f:#859900:#b58900:#268bd2:#d33682:#2aa198:#eee8d5:#002b36:#cb4b16:#586e75:#657b83:#839496:#6c71c4:#93a1a1:#fdf6e3"
+  [[manoel]]
+    background_color = "#002b36"
+    cursor_color = "#aaaaaa"
+    foreground_color = "#839496"
+    show_titlebar = False
+    scrollbar_position = hidden
+    palette = "#073642:#dc322f:#859900:#b58900:#268bd2:#d33682:#2aa198:#eee8d5:#002b36:#cb4b16:#586e75:#657b83:#839496:#6c71c4:#93a1a1:#fdf6e3"
+[layouts]
+  [[default]]
+    [[[window0]]]
+      type = Window
+      parent = ""
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+      profile = manoel
+  [[t3]]
+    [[[child0]]]
+      type = Window
+      parent = ""
+      order = 0
+      position = 1920:0
+      maximised = True
+      fullscreen = False
+      size = 2560, 1043
+      title = /usr/bin/zsh
+      last_active_term = 7eccdb4b-65b2-417a-a62b-c281e3cbea67
+      last_active_window = True
+    [[[child1]]]
+      type = HPaned
+      parent = child0
+      order = 0
+      position = 1278
+      ratio = 0.5001956947162427
+    [[[child2]]]
+      type = VPaned
+      parent = child1
+      order = 0
+      position = 519
+      ratio = 0.5
+    [[[terminal3]]]
+      type = Terminal
+      parent = child2
+      order = 0
+      profile = manoel
+      uuid = 64266cf5-63b4-4199-9d59-71f3883c15c1
+    [[[terminal4]]]
+      type = Terminal
+      parent = child2
+      order = 1
+      profile = manoel
+      uuid = 89e32880-9d0a-44dc-91e8-c61ece5f2b0b
+    [[[terminal5]]]
+      type = Terminal
+      parent = child1
+      order = 1
+      profile = manoel
+      uuid = 7eccdb4b-65b2-417a-a62b-c281e3cbea67
+  [[t2]]
+    [[[child0]]]
+      type = Window
+      parent = ""
+      order = 0
+      position = 1920:0
+      maximised = True
+      fullscreen = False
+      size = 2560, 1043
+      title = /usr/bin/zsh
+      last_active_term = 4cfa56d0-8c09-4e44-b59c-7dfc5379f244
+      last_active_window = True
+    [[[child1]]]
+      type = HPaned
+      parent = child0
+      order = 0
+      position = 1278
+      ratio = 0.5001956947162427
+    [[[terminal2]]]
+      type = Terminal
+      parent = child1
+      order = 0
+      profile = manoel
+      uuid = 9bc6b762-759f-47fe-9b01-08a2d7279bf8
+    [[[terminal3]]]
+      type = Terminal
+      parent = child1
+      order = 1
+      profile = manoel
+      uuid = 4cfa56d0-8c09-4e44-b59c-7dfc5379f244
+[plugins]
