@@ -1,0 +1,2 @@
+# Enable pipenv autocompletion
+eval "$(pipenv --completion)"
