@@ -1,3 +1,0 @@
-alias dotgit="git --git-dir=/home/manoel/.dotfiles --work-tree=/home/manoel"
-alias t3="terminator -l t3 &>/dev/null & disown"
-alias t2="terminator -l t2 &>/dev/null & disown"
